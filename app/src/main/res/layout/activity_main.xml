@@ -10,8 +10,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
         android:textColor="@color/purple_200"
-        android:textSize="40sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         android:id="@+id/appNameTextView"
-        android:text="welcome to my AndroidApp" />
+        android:text="Breweries App" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="FindBreweryCompany" />
 </RelativeLayout>
